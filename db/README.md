@@ -8,7 +8,7 @@ As a reminder, you would need to execute a `docker-compose down --volumes` befor
 You can have an interactive session connected to psql with:
 
 ```
-docker exec -it enermaps_db_1 psql -h 127.0.0.1 -p 5432 -U test dataset
+docker exec -it enermaps-db-1 psql -h 127.0.0.1 -p 5432 -U test dataset
 ```
 
 ## Sample queries
